@@ -1,0 +1,19 @@
+Pseudocode for the Hangman game:
+
+Initialize the word to be guessed.
+Initialize an empty list to store the letters that have been guessed.
+Initialize the number of attempts the player has to guess the word.
+
+Start a loop that continues until the player has no more attempts:
+  Display the current state of the word, showing underscores for letters that have not been guessed and the actual letters for those that have been guessed.
+  Ask the player for a letter guess.
+  If the guessed letter is in the word:
+    Add the guessed letter to the list of guessed letters.
+  If the guessed letter is not in the word:
+    Decrease the number of attempts by one.
+    Display a message telling the player that the guess was incorrect and showing the number of remaining attempts.
+  If all the letters in the word have been guessed:
+    Display a message congratulating the player for guessing the word.
+    End the game.
+  If the loop ends because the player has no more attempts:
+    Display a message telling the player that they have lost the game and showing the word that they were trying to guess.
